@@ -64,30 +64,32 @@ margin-bottom: 28px;
 color: var(--muted);
 }
 
-button {
-border: none;
-border-radius: 8px;
-padding: 14px 22px;
-margin: 0 10px 10px 0;
-font-size: 1rem;
-font-weight: bold;
-cursor: pointer;
-transition: 0.2s ease;
+.button {
+    display: inline-block;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px;
+    padding: 14px 22px;
+    margin: 0 10px 10px 0;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s ease;
 }
 
-button:first-of-type {
-background: var(--primary);
-color: white;
+.button-primary {
+    background: var(--primary);
+    color: white;
 }
 
-button:last-of-type {
-background: var(--accent);
-color: #172033;
+.button-secondary {
+    background: var(--accent);
+    color: #172033;
 }
 
-button:hover {
-transform: translateY(-2px);
-opacity: 0.9;
+.button:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
 }
 
 footer {
@@ -107,8 +109,9 @@ main {
     margin: 48px auto;
 }
 
-button {
-    width: 100%;
+.button {
+    display: block;
+    text-align: center;
     margin-right: 0;
 }
 
