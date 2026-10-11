@@ -1,0 +1,33 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pendaftaran | SATAS EXION</title>
+    <meta name="description" content="Halaman pendaftaran peserta SATAS EXION SMANSATAS.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>SATAS EXION</h1>
+        <p>Wadah Ekspresi, Kreativitas, dan Bakat SMANSATAS</p>
+    </header><main>
+    <h2>Pendaftaran Peserta</h2>
+
+    <p>
+        Selamat datang di halaman pendaftaran SATAS EXION.
+        Informasi mengenai kategori dan persyaratan akan tersedia
+        di halaman ini.
+    </p>
+
+    <p>
+        Formulir pendaftaran akan segera tersedia.
+        Silakan kembali setelah sistem pendaftaran diluncurkan.
+    </p>
+</main>
+
+<footer>
+    <p>© 2026 SATAS EXION | SMAN 1 Tasikmalaya</p>
+</footer>
+
+</body>
+</html>
