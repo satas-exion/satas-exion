@@ -136,18 +136,20 @@ font-size: 0.9rem;
 }
 
 @media (max-width: 600px) {
-header {
-padding: 20px;
-}
+    header {
+        padding: 20px;
+    }
 
-main {
-    margin: 48px auto;
-}
+    main {
+        margin: 48px auto;
+    }
 
-.button {
-    display: block;
-    text-align: center;
-    margin-right: 0;
+    .button {
+        display: flex;
+        width: 100%;
+        text-align: center;
+        margin: 10px 0;
+    }
 }
 
 }
